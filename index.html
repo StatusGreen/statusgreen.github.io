@@ -2,12 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>statusgreen.github.io</title>
+    <title>Status:Green - Solutions</title>
   </head>
-  <body>
+  <body class="bg-gray-100 flex flex-col justify-between h-screen">
+    <header>
+      <nav class="flex items-baseline">
+        <a href="/">
+          <img src="sg-logo-transparent.png" class="w-2xs" alt="Status Green Solutions" />
+        </a>
+        <div class="text-emerald-800 hover:text-emerald-400 text-3xl p-1">Solutions</div>
+        <div class="text-emerald-800 hover:text-emerald-400 text-3xl p-1">Contact Us</div>
+      </nav>
+    </header>
     <div id="app"></div>
+    <footer class="bg-gray-800 p-4 text-center text-gray-100">
+      <div>&copy; 2026 Status Green Soltuions</div>
+      <div>All Rights Reserved</div>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
