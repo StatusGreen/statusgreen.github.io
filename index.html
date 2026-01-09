@@ -4,21 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Status:Green - Solutions</title>
+    <link rel="icon" type="image/png" href="sg-ico.png">
   </head>
   <body class="bg-gray-100 flex flex-col justify-between h-screen">
-    <header>
-      <nav class="flex items-baseline">
-        <a href="/">
-          <img src="sg-logo-transparent.png" class="w-2xs" alt="Status Green Solutions" />
-        </a>
-        <div class="text-emerald-800 hover:text-emerald-400 text-3xl p-1">Solutions</div>
-        <div class="text-emerald-800 hover:text-emerald-400 text-3xl p-1">Contact Us</div>
-      </nav>
+    <header class="flex flex-col justify-center items-center bg-linear-to-b from-gray-400 to-gray-100">
+      <img src="sg-logo-transparent.png" class="w-1/4" alt="Status Green Solutions" />
+      <button class="border-2 border-emerald-900 bg-emerald-900 rounded-md hover:ring-2 hover:ring-emerald-600 font-bold text-gray-50 text-4xl p-3">Let's Talk</button>
     </header>
-    <div id="app"></div>
-    <footer class="bg-gray-800 p-4 text-center text-gray-100">
-      <div>&copy; 2026 Status Green Soltuions</div>
-      <div>All Rights Reserved</div>
+    <div class="flex flex-col justify-around w-4/5 m-auto mt-10 mb-10">
+      <h2 class="self-center mt-10 mb-10 text-3xl text-center">Our mission is to empower clinicians with tools that are intuitive, compliant, and aligned with the realities of care delivery in Canada.</h2>
+      <h2 class="text-4xl text-emerald-800 font-bold mt-5 mb-5">What We Do</h2>
+      <div class="grid grid-cols-2 gap-2">
+        <p class="m-1">We design, build, and implement tailored EMR enhancements that integrate seamlessly into Oracle Cerner PowerChart. Our solutions are not bolt-ons or external workarounds—they are embedded directly into clinician workflows to minimize disruption and maximize adoption.</p>
+        <div>  
+          <h3 class="text-lg text-emerald-900 font-bold">Our consulting services include:</h3>  
+          <ul class="list-item pl-2.5 m-1">
+            <li class="list-disc">Custom PowerChart workflow design and optimization</li>
+            <li class="list-disc">Clinical documentation and decision-support tools</li>
+            <li class="list-disc">Canadian-specific regulatory and reporting adaptations</li>
+            <li class="list-disc">Configuration and extension of existing Cerner functionality</li>
+            <li class="list-disc">Clinician-centered design and usability optimization</li>
+          </ul>
+        </div>
+      </div>
+      <h2 class="text-4xl text-emerald-800 font-bold mt-5 mb-5">Canadian-Focused Solutions</h2>
+      <div class="flex flex-col">
+        <p class="m-1">Much of the current EMR ecosystem is designed primarily for the American healthcare market, often leaving Canadian organizations to adapt tools that do not fully reflect local regulations, billing models, care pathways, or clinical practices.</p>
+        <p class="text-2xl text-center bg-emerald-900 text-gray-100 rounded-2xl font-bold pt-5 pb-5">We focus exclusively on closing this gap.</p>
+        <p class="m-1">By grounding our solutions in Canadian healthcare standards and frontline clinician input, we help organizations move beyond “one-size-fits-all” implementations toward systems that truly support care delivery in Canada.</p>
+      </div>
+      <h2 class="text-4xl text-emerald-800 font-bold mt-5 mb-5">Our Approach</h2>
+      <p class="m-1">
+        We take a clinician-first, system-aware approach to consulting:
+        <ul class="list-item pl-2.5 m-1">
+          <li class="list-disc">We start by understanding real-world clinical workflows</li>
+          <li class="list-disc">We identify friction points created by generic or U.S.-focused solutions</li>
+          <li class="list-disc">We design targeted, embedded tools that reduce cognitive load and administrative burden</li>
+          <li class="list-disc">We collaborate closely with stakeholders to ensure sustainability and scalability</li>
+        </ul>
+      </p>
+      <p class="m-1">The result is practical, high-impact solutions that improve efficiency without compromising clinical autonomy.</p>
+      <h2 class="text-4xl text-emerald-800 font-bold mt-5 mb-5">Who We Serve</h2>
+      <p class="m-1">
+        <div class="grid grid-cols-4 gap-6">
+          <div class="border bg-emerald-950 ring-4 ring-emerald-600 text-gray-100 font-bold w-70 h-30 p-4 text-center">Canadian Hospitals and Health Systems</div>
+          <div class="border bg-emerald-950 ring-4 ring-emerald-600 text-gray-100 font-bold w-70 h-30 p-4 text-center">Regional Health Authorities</div>
+          <div class="border bg-emerald-950 ring-4 ring-emerald-600 text-gray-100 font-bold w-70 h-30 p-4 text-center">Clinical Programs using Oracle Cerner PowerChart</div>
+          <div class="border bg-emerald-950 ring-4 ring-emerald-600 text-gray-100 font-bold w-70 h-30 p-4 text-center">Healthcare Teams Seeking Meaningful EMR Optimization</div>
+        </div>
+      </p>
+    </div>
+    <footer class="bg-gray-800 p-4 text-gray-100">
+      <div class="flex justify-between h-28">
+        <img src="sg-logo-t-white.png" class="h-3/4" alt="Status Green Solutions" />
+        <div>
+          <h2 class="text-2xl text-gray-400 font-bold">Contact Info</h2>
+          <span>info@statusgreensolutions.ca</span>
+        </div>
+      </div>
+      <div class="border-t border-t-gray-400 pt-2 text-gray-400">
+        &copy; 2026 Status Green Soltuions. All Rights Reserved
+      </div>
     </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
