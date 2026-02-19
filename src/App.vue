@@ -4,8 +4,10 @@ import sgLogoGray from './assets/sg-logo-gray.svg'
 </script>
 
 <template>
-  <header class="flex flex-col justify-center items-center bg-linear-to-b from-gray-400 to-gray-100">
-    <img :src="sgLogo" alt="Status Green Solutions" />
+  <header class="flex flex-col bg-[url(src/assets/terminal_banner.png)] bg-size-[750px] bg-top-right bg-no-repeat bg-black w-full">
+    <div class="ml-auto mr-auto min-w-6xl">
+      <img :src="sgLogoGray" alt="Status Green Solutions" />
+    </div>
   </header>
   <footer class="flex flex-col bg-gray-800 text-gray-100">
     <div class="ml-auto mr-auto min-w-6xl">
