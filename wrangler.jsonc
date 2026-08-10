@@ -5,7 +5,7 @@
    "assets": {
      "directory": "./dist"
    },
-   "route": "statusgreensolutions.com",
+   "route": "dev.statusgreensolutions.com",
    "env": {
      "dev": {
        "route": "dev.statusgreensolutions.com"
