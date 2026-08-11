@@ -8,14 +8,12 @@ const year = new Date().getFullYear()
   <footer id="contact" class="border-t border-neutral-white/10 bg-surface-dark text-neutral-white">
     <div class="mx-auto max-w-6xl px-6 py-14 md:px-8">
       <div class="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
-        <img :src="sgLogoGray" alt="Status Green Solutions" class="h-10 w-auto" />
+        <img :src="sgLogoGray" alt="Status Green Solutions" class="h-20 w-auto" />
 
         <div class="flex flex-col gap-1">
           <span class="font-display text-lg font-bold">Contact Info</span>
-          <a
-            href="mailto:info@statusgreensolutions.ca"
-            class="font-mono text-sm text-neutral-white/70 transition-colors hover:text-highlight"
-          >
+          <a href="mailto:info@statusgreensolutions.ca"
+            class="font-mono text-sm text-neutral-white/70 transition-colors hover:text-highlight">
             info@statusgreensolutions.ca
           </a>
         </div>
